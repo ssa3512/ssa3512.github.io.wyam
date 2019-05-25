@@ -1,0 +1,5 @@
+#r blog
+#t Stellar
+Settings[BlogKeys.Title] = "Steve Ashman";
+Settings[BlogKeys.Description] = "The personal page of Steve Ashman";
+Settings[BlogKeys.Intro] = "Welcome!";
