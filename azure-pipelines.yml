@@ -16,5 +16,8 @@ steps:
     custom: 'tool'
     arguments: 'install -g Wyam.Tool'
 
+- script: git clone https://github.com/ssa3512/ssa3512.github.io output
+  displayName: "Clone existing output"
+
 - script: wyam
   displayName: "Run wyam build"
